@@ -1,0 +1,170 @@
+ul {
+  list-style-type: none;
+  display: flex;
+}
+#aboutme{
+  font-family:Roboto, fallback-font;
+}
+body{
+  background-color: #FFFAF0;
+}
+#contact{
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  margin: 10px 8px;
+  cursor: pointer;
+  border-radius: 12px;
+  text-decoration: none;
+  text-align: center;
+  background-color: darkgoldenrod;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+#navbar {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+}
+ #name{
+   position: relative;
+   left: 10px;
+   top: 20px;
+ }
+img{
+  border-radius: 50%;
+}
+.pagelink li{
+  display: inline-flex;
+  position: relative;
+  left: 800px;
+  background-color: darkgoldenrod;
+  top: 30px;
+  border-radius: 12px;
+}
+#link a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+#link a.active{
+  background-color: beige;
+  color: white;
+  
+}
+#link a:hover{
+ background-color: bisque;
+}
+
+div.content p{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+
+#hi1 {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-style: oblique;
+  font-size: 70px;
+}
+#hi2{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, sans-serif;
+}
+#work{
+  position: relative;
+  left: 15px;
+  top: 10px;
+}
+.projectlist{
+  display: flex;
+  justify-content: space-around;
+  top: 100%;
+}
+.projectlist1{
+  
+  background-color: darkgoldenrod;;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+.projectlist2{
+  
+  background-color: darkgoldenrod;;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  top: 30px;
+  color: white;
+}
+.projectlist3{
+
+  background-color: darkgoldenrod;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+#interest{
+  position: relative;
+  left: 20px;
+  top: 40px;
+}
+.int h3{
+  display: list-item;
+  list-style-type:disc;
+}
+.int{
+  display: flex;
+  justify-content: space-around;
+  top: 100%;
+}
+#vo{
+  background-color: darkgoldenrod;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+#tra{
+  background-color: darkgoldenrod;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+#red{
+  background-color: darkgoldenrod;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
