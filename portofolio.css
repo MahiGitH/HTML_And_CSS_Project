@@ -138,10 +138,7 @@ div.content p{
   left: 20px;
   top: 40px;
 }
-.int h3{
-  display: list-item;
-  list-style-type:disc;
-}
+
 .int{
   display: flex;
   justify-content: space-around;
